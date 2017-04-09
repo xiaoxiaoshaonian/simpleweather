@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin_10"
+    android:background="@color/coulorz_trans"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_marginTop="@dimen/margin_10"
+    android:text="未来预报"
+    android:textColor="@color/white"
+    android:textSize="@dimen/txt_size_20"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="0dp"
+        android:text="@string/for_date"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+android:gravity="center"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/for_weather"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_max"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:text="@string/for_max_tm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/txt_min"
+        android:text="@string/for_min_tm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/forecast_linearlayout"
+        android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

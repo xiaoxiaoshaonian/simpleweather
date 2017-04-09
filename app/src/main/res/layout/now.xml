@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_now_tem"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多云"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:id="@+id/txt_now_info"
+        android:textSize="@dimen/txt_size_35" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22;25"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_now_time"
+        android:textSize="@dimen/txt_size_20" />
+</LinearLayout>

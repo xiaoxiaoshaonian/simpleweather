@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">simpleweather</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="choose_city">切换城市</string>
+    <string name="auto_change">自动更新</string>
+    <string name="our_change">手动更新</string>
+    <string name="for_date">日期</string>
+    <string name="for_weather">天气</string>
+    <string name="for_max_tm">最高气温</string>
+    <string name="for_min_tm">最低气温</string>
 </resources>
